@@ -1,0 +1,57 @@
+.container-principal{
+    background-color: var(--cor-14);
+}
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.contato a{
+    color: var(--cor-0);
+    font-size: 16px;
+    margin: 0 10px 10px 10px;
+    font-weight: 400;
+}
+.contato p{
+    color: var(--cor-0);
+    font-size: 16px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 400;
+    margin: 0 10px 10px 10px;
+}
+.header{
+    background-color: var(--cor-13);
+}
+.flex a{
+    color: var(--cor-0);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.container-navegacao{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu a{
+    display: block;
+    color: var(--cor-0);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+}
+.menu a:hover{
+    color: var(--cor-14);
+}
